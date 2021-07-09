@@ -13,7 +13,7 @@ pipeline {
             }
         }
         stage ('Deploy to Staging') {
-            Build job:
+            Build job: 'Deploy-to-Staging'
         }
     }
 
